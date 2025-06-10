@@ -222,6 +222,7 @@ h1 {
       }
     }
   }
+
   .hero-yellow {
     flex: 1;
     background-color: #e5e5e5;
@@ -669,4 +670,24 @@ footer {
 
 footer .logo-holder img {
   height: 1.7rem;
+}
+
+@media (max-width: 440px) {
+  .hero-blue h1 {
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .hero-blue h1 {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 280px) {
+  .hero-blue h1 {
+    font-size: 0.9rem;
+  }
+  body {
+    font-size: 15px;
+  }
 }
