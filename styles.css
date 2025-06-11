@@ -416,6 +416,7 @@ h3 {
     justify-content: center;
     width: 100%;
     max-width: 800px;
+    gap: 30px;
 
     @media (max-width: 768px) {
       flex-direction: column;
