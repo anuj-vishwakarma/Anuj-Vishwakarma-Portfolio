@@ -231,11 +231,16 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    img {
-      margin-top: -60px;
-      max-width: 420px;
-      /* margin-bottom: -10px; */
-    }
+    height: 100%; /* Make sure the parent gives it height or set a fixed height */
+    overflow: hidden; /* Hide overflow if the image is large */
+  }
+
+  .hero-yellow img {
+    width: 100%;
+    height: auto;
+    scale: 1.1;
+    object-fit: contain; /* Ensures image scales properly */
+    display: block;
   }
 }
 
