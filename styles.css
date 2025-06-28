@@ -129,7 +129,17 @@ header {
     }
   }
 }
-
+.disclaimer {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 600;
+  line-height: 0.9;
+  .span1 {
+    color: red;
+  }
+  .span2 {
+    color: rgb(0, 141, 136);
+  }
+}
 header .logo-holder img {
   height: 1.9rem;
 }
@@ -679,6 +689,10 @@ footer .logo-holder img {
 }
 
 @media (max-width: 440px) {
+  .disclaimer {
+    font-size: 1.7rem;
+    line-height: 0.9;
+  }
   .hero-blue h1 {
     font-size: 1.7rem;
   }
@@ -696,6 +710,10 @@ footer .logo-holder img {
 }
 
 @media (max-width: 350px) {
+  .disclaimer {
+    font-size: 1.4rem;
+    line-height: 0.8;
+  }
   .hero-blue h1 {
     font-size: 1.2rem;
   }
