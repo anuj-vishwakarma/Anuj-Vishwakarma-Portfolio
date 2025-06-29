@@ -698,6 +698,10 @@ footer .logo-holder img {
   }
 }
 @media (max-width: 440px) {
+  .disclaimer {
+    font-weight: 800;
+    /* background-color: red; */
+  }
   .hero .hero-yellow img {
     width: 100%;
     height: auto;
@@ -726,6 +730,10 @@ footer .logo-holder img {
 }
 
 @media (max-width: 350px) {
+  .disclaimer {
+    font-weight: 800;
+    /* background-color: red; */
+  }
   .hero .hero-yellow img {
     width: 105%;
     height: auto;
@@ -766,6 +774,10 @@ footer .logo-holder img {
   }
 }
 @media (max-width: 299px) {
+  .disclaimer {
+    font-weight: 800;
+    /* background-color: red; */
+  }
   .hero .hero-yellow img {
     width: 110%;
     height: auto;
