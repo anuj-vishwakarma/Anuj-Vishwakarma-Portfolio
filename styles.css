@@ -688,7 +688,23 @@ footer .logo-holder img {
   height: 1.7rem;
 }
 
+@media (max-width: 783px) {
+  .hero .hero-yellow img {
+    width: 100%;
+    height: auto;
+    scale: 1.2;
+    object-fit: contain; /* Ensures image scales properly */
+    display: block;
+  }
+}
 @media (max-width: 440px) {
+  .hero .hero-yellow img {
+    width: 100%;
+    height: auto;
+    scale: 1.27;
+    object-fit: contain; /* Ensures image scales properly */
+    display: block;
+  }
   .disclaimer {
     font-size: 1.7rem;
     line-height: 0.9;
@@ -710,6 +726,13 @@ footer .logo-holder img {
 }
 
 @media (max-width: 350px) {
+  .hero .hero-yellow img {
+    width: 105%;
+    height: auto;
+    scale: 1.3;
+    object-fit: contain; /* Ensures image scales properly */
+    display: block;
+  }
   .disclaimer {
     font-size: 1.4rem;
     line-height: 0.8;
@@ -743,6 +766,13 @@ footer .logo-holder img {
   }
 }
 @media (max-width: 299px) {
+  .hero .hero-yellow img {
+    width: 110%;
+    height: auto;
+    scale: 1.4;
+    object-fit: contain; /* Ensures image scales properly */
+    display: block;
+  }
   .hero-blue h1 {
     font-size: 0.9rem;
   }
